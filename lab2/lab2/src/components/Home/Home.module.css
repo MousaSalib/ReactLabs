@@ -1,0 +1,9 @@
+.imgHome {
+    height: 100vh;
+}
+.container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(55, 2, 61);
+}

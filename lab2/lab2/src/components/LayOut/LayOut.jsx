@@ -7,6 +7,11 @@ export default function LayOut() {
     <>
         <Navbar/>
         <Outlet/>
+
+
+
+
+        
         <Contact/>
     </>
   )

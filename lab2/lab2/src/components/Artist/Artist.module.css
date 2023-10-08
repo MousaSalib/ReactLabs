@@ -1,0 +1,16 @@
+.child {
+    display: flex;
+    justify-content: space-around;
+}
+.grand {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: rgb(55, 2, 61);
+}
+.icon {
+    font-size: 2em;
+    padding: 10px;
+}

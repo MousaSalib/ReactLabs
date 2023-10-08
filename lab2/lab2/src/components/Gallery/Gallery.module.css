@@ -1,0 +1,13 @@
+.bg {
+    height: 100vh;
+    background-color: rgb(55, 2, 61);
+}
+.container {
+    display: flex;
+    justify-content: center;
+    
+    
+}
+.container img {
+    padding: 0 5px;
+}
