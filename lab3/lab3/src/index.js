@@ -5,16 +5,21 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import CrounterContextProvider from './context/counter';
 import TokenContextProvider from './context/tokenContext';
+import { Provider } from 'react-redux';
+import store from './Redux/store';
+
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <TokenContextProvider>
-      <CrounterContextProvider>
-        <App />
-      </CrounterContextProvider>
-    </TokenContextProvider>
+    <Provider store={store}>
+      <TokenContextProvider>
+        <CrounterContextProvider>
+          <App />
+        </CrounterContextProvider>
+      </TokenContextProvider>
+    </Provider>
   </React.StrictMode>
 );
 
